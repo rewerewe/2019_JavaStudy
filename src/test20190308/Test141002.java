@@ -1,3 +1,4 @@
+package test20190308;
 /*=====================================
  ■■■ 자바의 주요(중요) 클래스 ■■■
   - Random 클래스 
@@ -61,10 +62,10 @@ public class Test141002
 			for (; ; )
 			{
 				
-				if (suArr[i] == suArr[j])
-				{
-					// suArr[j] = 0;
-				}
+//				if (suArr[i] == suArr[j])
+//				{
+//					// suArr[j] = 0;
+//				}
 
 			}
 		}

@@ -1,3 +1,4 @@
+package test20190214;
 /*====================================================
 	■■■ 변수와 자료형 ■■■
 	- 퀴즈
@@ -43,7 +44,7 @@ public class Test010
 
 		// 주요 변수 선언
 		int r = 10 ;					//--반지름
-		final double PI = 3.141592		//--원주율
+		final double PI = 3.141592;		//--원주율
 
 		// ※ 키워드 『final』 : 변수의 상수화 (∴사용자에 의해 변경 x) → pi값 새로 정의 x ⇒ 대문자로 이름 명명 (: 암묵적 약속)
 		double area, length;
@@ -64,7 +65,7 @@ public class Test010
 		System.out.println("둘레 : " + length);
 
 		System.out.println("넓이 : " + area + "\n둘레 :" + length);
-		System.printf("
+
 
 
 		

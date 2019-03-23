@@ -1,3 +1,4 @@
+package test20190307;
 /*=====================================
  ■■■ 자바의 주요(중요) 클래스 ■■■
   - 문자열 관련 클래스
@@ -117,7 +118,7 @@ public class Test136
 			System.out.println();
 
 			System.out.println("value2 : " + new String(buf));
-			//--==>> value2 : ?궓?긽?쁽
+			//--==>> value2 : ?????????
 			//--??? 
 
 			System.out.println();

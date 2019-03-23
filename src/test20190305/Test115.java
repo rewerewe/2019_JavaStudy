@@ -1,3 +1,4 @@
+package test20190305;
 /*=======================================
  ■■■ 클래스 고급 ■■■
  - 인터페이스 (Interface)
@@ -65,13 +66,13 @@
 
 // 인터페이스
 
-interface ADemo
+interface ADemo_4
 {
 	public void write();
 }
 
 // 인터페이스 
-interface BDemo
+interface BDemo_4
 {
 	public void print();
 }
@@ -79,8 +80,8 @@ interface BDemo
 // ※ 클래스는 다중 상속을 지원하지 않지만,
 // 인터페이스는 다중 상속을 지원한다.
 
-// 두 인터페이스(ADemo, BDemo)를 상속받는 인터페이스 
-interface CDemo extends ADemo, BDemo
+// 두 인터페이스(ADemo_4, BDemo_4)를 상속받는 인터페이스 
+interface CDemo extends ADemo_4, BDemo_4
 {
 	// public void write();
 	// public void print();
@@ -92,7 +93,7 @@ interface CDemo extends ADemo, BDemo
 // abstract class DemoImpl implements CDemo
 //		↓
 // 두 인터페이스를 상속받은 인터페이스를 구현한 클래스 
-class DemoImpl implements CDemo
+class DemoImpl_4 implements CDemo
 {
 	@Override
 	public void write()
@@ -119,7 +120,7 @@ public class Test115
 	{
 		// 두 인터페이스를 상속받은 인터페이스를 구현하고
 		// 모든 메소드를 재정의한 클래스에 대한 인스턴스 생성
-		DemoImpl ob = new DemoImpl();
+		DemoImpl_4 ob = new DemoImpl_4();
 
 		ob.write();
 		ob.print();

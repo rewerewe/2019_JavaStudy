@@ -1,3 +1,4 @@
+package test20190218;
  /*=========================================
   ■■■ 실행 흐름의 컨트롤 (제어문) ■■■
   - if ~ else 실습
@@ -76,7 +77,7 @@ public class Test033
 		}
 		
 		// printf로 형식에 맞추어 출력하겠다. 
-		System.out.printf("%d → %s\n", n, moon)
+		System.out.printf("%d → %s\n", n, moon);
 
 	}
 }

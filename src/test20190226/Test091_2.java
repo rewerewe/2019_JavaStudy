@@ -1,3 +1,4 @@
+package test20190226;
 /*=============================== 
  ■■■ 클래스와 인스턴스 ■■■
  - 클래스 설계
@@ -30,7 +31,7 @@
 
 import java.util.Scanner;
 
-class WeekDay
+class WeekDay_2
 {
 	// 주요 변수 선언(속성 구성)
 	private int y, m, d;		//-- 사용자가 입력한 년, 월, 일을 담을 변수 
@@ -51,7 +52,7 @@ class WeekDay
 
 	// 메소드 정의(요일 산출하기)
 	//String week()
-	void week()
+	Integer week()
 	{
 		// 전체 일수, 루프 변수, 요일 변수 선언 
 		int daySum, i, w;
@@ -61,14 +62,15 @@ class WeekDay
 		// 윤년 = 4의 배수이면서 100의 배수가 아니거나 400의 배수
 		// (y-1)/4 (y-1)/100 (y-1)/400
 		// daySum = 365 * 직전 연도 + 윤년 
+		daySum = 365;
 
-
-		// return ;	
+		return daySum ;	
 	}
 
 	// 메소드 정의(결과 출력하기)
-	void print(String day)
+	void print(Integer day)
 	{
+		
 	}
 
 }

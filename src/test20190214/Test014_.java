@@ -1,3 +1,4 @@
+package test20190214;
 /*========================================
 자바의 기본 프로그래밍
 - 변수와 자료형
@@ -22,15 +23,16 @@
 
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
+import java.io.IOException;
 
 /* 내가 작성한 코드
 import java.io.BufferedReader;
 import java.io.InputStreamReader; */
 
 
-public class Test014
+public class Test014_
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
 		
 		// 함께 작성한 코드
@@ -63,13 +65,13 @@ public class Test014
 		// 연산 및 처리
 		// 1) 사용자로부터 값을 입력받음
 		System.out.print("이름을 입력하세요 : ");
-		name = Integer.parseInt((br.readLine));												// readLine : 한줄씩 읽음 - parseInt : 정수형 값으로 변환함. 
+		name = br.readLine();												// readLine : 한줄씩 읽음 - parseInt : 정수형 값으로 변환함. 
 
 		
 
 		// 결과 출력 
 
-		*/
+	
 
 
 

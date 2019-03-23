@@ -1,17 +1,18 @@
+package test20190305;
 /*=======================================
  ■■■ 클래스 고급 ■■■
  - 인터페이스 (Interface)
 =========================================*/
 
 // 인터페이스
-interface Demo
+interface Demo_2
 {
 	public void write();
 	public void print();
 }
 
 // Demo 인터페이스를 구현하는 추상 클래스 
-abstract class DemoImpl implements Demo
+abstract class DemoImpl_3 implements Demo_2
 {
 	@Override
 	public void write()
@@ -27,7 +28,7 @@ abstract class DemoImpl implements Demo
 // abstract class DemoImplSub extends DemoImpl
 //		↓
 // 추상 클래스를 상속받는 일반 클래스 
-class DemoImplSub extends DemoImpl
+class DemoImplSub extends DemoImpl_3
 {
 	@Override
 	public void print()

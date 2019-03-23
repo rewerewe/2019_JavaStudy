@@ -1,3 +1,4 @@
+package test20190304;
 
 /*====================================
  ■■■ 정렬(Sort) 알고리즘 ■■■■
@@ -54,7 +55,7 @@ public class Test102
 			// System.out.println("웅");
 			for (int j=i+1; j<a.length; j++)	// 0 - 1 2 3 4 → 비교대상 데이터의 인덱스
 			{									// 1 - 2 3 4 
-				// System.out.println("쑝");
+				// System.out.println("??");
 				
 				if (a[i] > a[j])
 				{

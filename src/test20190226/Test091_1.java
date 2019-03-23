@@ -1,3 +1,4 @@
+package test20190226;
 /*==============================
  ■■■ 클래스와 인스턴스 ■■■
  - 클래스 설계
@@ -67,7 +68,7 @@
 
 import java.util.Scanner;
 
-class WeekDay
+class WeekDay_1
 {
 	// 주요 변수 선언(속성 구성)
 	private int y, m, d;		//-- 사용자가 입력한 년, 월, 일을 담을 변수 
@@ -134,7 +135,7 @@ public class Test091_1
 {
 	public static void main(String[] args)
 	{
-		WeekDay wd = new WeekDay();
+		WeekDay_1 wd = new WeekDay_1();
 
 		wd.input();					//-- 입력 메소드 호출 
 		

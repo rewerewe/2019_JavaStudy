@@ -1,3 +1,4 @@
+package test20190308;
 
 /*
  ○ 실습 문제 
@@ -26,11 +27,6 @@
 	
 */
 
-public class Test138002
-{
-	public static void main(String[] args)
-	{
-
 // 내가 풀이한 내용 
 
 import java.io.BufferedReader;
@@ -38,9 +34,8 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Calendar;
 
-public class Test138
+public class Test138002
 {
-
 	public static void main(String[] args) throws IOException
 	{
 		Test138 ob = new Test138();
@@ -83,9 +78,7 @@ public class Test138
 		// System.out.println("막일 : " + obCal.getActualMaximum(Calendar.DAY_OF_MONTH));
 		// 31 → 31
 		
-		// String[] week = {"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"};
-		
-
+		String[] week = {"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"};
 		
 		// 확인
 		System.out.println("요일 : " + obCal.get(Calendar.DAY_OF_WEEK));
@@ -101,10 +94,5 @@ public class Test138
 		// System.out.println();
 		// System.out.print("	[" + obCal.get(Calendar.YEAR) + "년 " + obCal.get(Calendar.MONTH) + "월]	"); 
 		
-
-		
-		
-	}
-}
 	}
 }

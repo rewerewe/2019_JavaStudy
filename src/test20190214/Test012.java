@@ -14,7 +14,7 @@
 // 둘레 : xxxx.xx
 // 계속하려면 아무 키나 누르세요...
 
-package exam;
+package test20190214;
 
 import java.io.BufferedReader;				// BufferedReader는 설계도대로 무언가 만들어 준다. '무언가 읽어들이는 장치'라는 의미. 
 import java.io.InputStreamReader;

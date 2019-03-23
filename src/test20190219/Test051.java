@@ -1,3 +1,4 @@
+package test20190219;
 /*=========================================
  ■■■ 실행 흐름의 컨트롤 (제어문) ■■■
  - 반복문(while) 실습
@@ -38,6 +39,6 @@ public class Test051
 		System.out.print("두 번째 정수 입력 : ");
 		n2 = Integer.parseInt(br.readLine());
 
-		sum += 
+		
 	}
 }

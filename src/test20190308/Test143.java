@@ -1,3 +1,4 @@
+package test20190308;
 /*=====================================
  ■■■ 예외(Exception) 처리 ■■■ 
 ======================================*/
@@ -10,7 +11,7 @@ public class Test143
 
 	private String[] data = new String[3];
 	
-	proc()
+	void proc()
 	{
 		BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
 	}

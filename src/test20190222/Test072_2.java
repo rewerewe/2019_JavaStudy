@@ -1,3 +1,4 @@
+package test20190222;
 /*==================================
  ■■■ 클래스와 인스턴스 ■■■
  - 클래스 설계 실습 
@@ -85,7 +86,7 @@ class NumPlus
 
 }
 
-public class Test072
+public class Test072_2
 {
 	public static void main(String[] args) throws IOException
 	{

@@ -1,3 +1,4 @@
+package test20190226;
 /*=============================== 
  ■■■ 클래스와 인스턴스 ■■■
  - 클래스 설계
@@ -150,11 +151,11 @@ public class Test091
 {
 	public static void main(String[] args)
 	{
-		WeekDay wd = new WeekDay();
+		WeekDay_2 wd = new WeekDay_2();
 
 		wd.input();					//-- 입력 메소드 호출 
 		// wd.week();
-		String result = wd.week();	//-- 요일 산출 메소드 호출
+		Integer result = wd.week();	//-- 요일 산출 메소드 호출
 		wd.print(result);			//-- 결과 출력 메소드 호출 
 	}
 }

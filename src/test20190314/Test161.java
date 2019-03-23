@@ -1,3 +1,4 @@
+package test20190314;
 /*==================================
  ■■■ 컬렉션 (Collection) ■■■ 
 ===================================*/
@@ -69,7 +70,7 @@ class Demo1
 	// 삭제 (시작인덱스 ~ 끝인덱스)
 	void removeItems(List<String> lists, int start, int end)
 	{
-		lists.subList(start, end+1).clear()
+		lists.subList(start, end+1).clear();
 	}
 	
 }

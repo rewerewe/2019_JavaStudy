@@ -1,3 +1,4 @@
+package test20190218;
 /*
  실행 흐름의 컨트롤(제어문)
  - if ~ else 실습 
@@ -135,7 +136,7 @@ public class Test034
 	op = System.in.read();
 	
 	// 테스트(확인)
-	System.out.prinln("op : " + op);
+	System.out.println("op : " + op);
 	//-- + → op : 43
 	//   - → op : 45
 	//   * → op : 42

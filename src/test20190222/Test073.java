@@ -1,3 +1,4 @@
+package test20190222;
 /*==================================
  ■■■ 클래스와 인스턴스 ■■■
  - 클래스 설계 실습 
@@ -39,7 +40,7 @@ class Calculate
 	// ○ 메소드 정의(기능 : 연산) 
 	int cal()
 	{
-		int result;
+		int result=0;
 		
 		switch (op)
 		{
@@ -48,8 +49,6 @@ class Calculate
 			case '-' : result = su1 - su2; break;
 			case '*' : result = su1 * su2; break;
 			case '/' : result = su1 / su2; break;
-			default "
-		
 		}
 
 		return result;

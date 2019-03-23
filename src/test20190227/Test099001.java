@@ -1,3 +1,4 @@
+package test20190227;
 
 /*======================
  ¡á¡á¡á ¹è¿­ ¡á¡á¡á
@@ -27,7 +28,7 @@
 
 import java.util.Scanner;
 
-public class Test099
+public class Test099001
 {
 	public static void main(String[] args)
 	{

@@ -1,3 +1,4 @@
+package test20190305;
 /*=======================================
  ■■■ 클래스 고급 ■■■
  - 인터페이스 (Interface)
@@ -19,7 +20,7 @@ interface BDemo
 // class DemoImpl
 //
 // 두 인터페이스를 구현하는 추상 클래스
-class DemoImpl implements ADemo, BDemo
+class DemoImpl_2 implements ADemo, BDemo
 {
 	// JDK 1.5(5.0)에서는 인터페이스 메소드를 오버라이딩(Overriding)할 때 
 	// 『@Override』 어노테이션(annotation)을 사용할 수 없다.
@@ -53,7 +54,7 @@ public class Test113
 
 		// 가능할까? 
 		// ADemo, BDemo 인터페이스 구현(implements)한 클래스(→ DemoImpl) 기반의 인스턴스 생성 
-		DemoImpl ob1 = new DemoImpl();
+		DemoImpl_2 ob1 = new DemoImpl_2();
 		// 에러 발생 : 현재 DemoImpl는 추상클래스 → 일반 클래스로 전환 후 생성 가능. (즉, 오버라이딩 해야함)
 
 		ob1.write();
@@ -61,8 +62,8 @@ public class Test113
 		//--==>> ADemo 인터페이스 메소드...
 		//		 BDemo 인터페이스 메소드...
 
-		ADemo ob2 = new DemoImpl();		//-- 업 캐스팅
-		BDemo ob3 = new DemoImpl();		//-- 업 캐스팅 
+		ADemo ob2 = new DemoImpl_2();		//-- 업 캐스팅
+		BDemo ob3 = new DemoImpl_2();		//-- 업 캐스팅 
 
 		// ob2.print();	//--==>> 에러 발생
 		// ob3.write();	//--==>> 에러 발생 : 하위 클래스 메소드라서.

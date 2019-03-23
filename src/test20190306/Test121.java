@@ -1,3 +1,4 @@
+package test20190306;
 /*=====================================
  ■■■ 자바의 주요(중요) 클래스 ■■■
 ======================================*/
@@ -81,7 +82,7 @@ public class Test121 // extends Object
 		//--==>> Test121@15db9742 : System 도 객체. println() 메소드가 정의되어있다는 것.
 		// 업 캐스팅 발생하여 Object 의 요소로 접근. 
 
-		System.out.prinlnt();
+		System.out.println();
 
 		/*
 		class System

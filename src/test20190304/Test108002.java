@@ -1,3 +1,4 @@
+package test20190304;
 /*==================================
  ■■■ 클래스 고급 ■■■
  - 상속 (Inheritance)
@@ -20,12 +21,12 @@ import java.util.Scanner;
 import java.io.IOException;
 
 // 부모 클래스 
-class Aclass 
+class Aclass_2 
 {
 	 protected int x, y;
 	 protected char op;
 
-	Aclass()
+	Aclass_2()
 	{
 	}
 
@@ -36,7 +37,7 @@ class Aclass
 }
 
 // 자식 클래스 
-class Bclass extends Aclass 
+class Bclass_2 extends Aclass_2 
 { 
 	double result;
 
@@ -72,7 +73,7 @@ public class Test108002
 {
 	public static void main(String[] args) throws IOException
 	{
-		Bclass ob = new Bclass();
+		Bclass_2 ob = new Bclass_2();
 
 		ob.input();
 		double result = ob.cal();
